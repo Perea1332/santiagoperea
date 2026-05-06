@@ -1,74 +1,113 @@
-# website-template
+# Santiago Perea — Personal Academic Website
 
-[Video tutorial](https://youtu.be/YN75YXaLFGM)
+Built with [Quarto](https://quarto.org/) and deployed to GitHub Pages.
 
-This is a template for creating a Quarto web site using RStudio.
+## Project Structure
 
-To use it effectively you need to know how to push and pull from GitHub to RStudio using the Git panel buttons, which requires a working GitHub personal access token (PAT). If you don't have one setup, following [these instructions](https://happygitwithr.com/https-pat.html#tldr) in *Happy Git and GitHub for the useR* to set one up. (In short you will create a token for HTTPS and store it using **gitcreds**.)
+```
+.
+├── _quarto.yml          # Site configuration (title, navbar, theme)
+├── index.qmd            # Home / About page
+├── research.qmd         # Research projects
+├── publications.qmd     # Full publication list
+├── teaching.qmd         # Teaching & mentorship
+├── outreach.qmd         # Outreach & press coverage
+├── contact.qmd          # Contact page
+├── styles.css           # Custom CSS (colors, cards, layout)
+├── images/              # Put your profile photo here
+│   └── profile.jpg      # ← Your headshot goes here!
+├── docs/                # Rendered output (auto-generated, served by GitHub Pages)
+└── .github/
+    └── workflows/
+        └── publish.yml  # GitHub Actions: auto-render & deploy on push
+```
 
-In addition open RStudio and update to the latest version by clicking "Help" "Check for Updates". (This is necessary to ensure that Quarto is installed.)
+## Quick Start
 
-## ABSOLUTE ESSENTIALS
+### Prerequisites
+- [R](https://www.r-project.org/) (≥ 4.0)
+- [Quarto](https://quarto.org/docs/get-started/) (≥ 1.4)
+- [RStudio](https://posit.co/download/rstudio-desktop/) (recommended)
 
-*If you have any difficulties or have feedback of any kind, please file an issue or communicate through [Discussions](https://github.com/jtr13/website-template/discussions).*
+### Preview locally
 
-### Copy this template (GitHub)
+```bash
+# In the project folder:
+quarto preview
+```
 
-- [ ] 1. Click the green "Use this template" button above. (You need to login to GitHub to see this option). Choose the "Create a new repository" option. DO NOT FORK THE REPO. Choose a descriptive name for your repo based on your content. (Unlike when you fork a repo, you get to choose the name. If you change your mind before you do any work, delete your new repo and start over.) Leave the "Public" option checked or else GitHub Pages won't work.
+This opens a live-reloading local preview at `http://localhost:4848`.
 
-### Set up Pages (GitHub)
+### Add your photo
 
-- [ ] 1. You've now left the template page and are viewing your new repo on GitHub. On the home page, click Settings. Click the "Pages" section on the left. In the **Build and Deployment** section, set **Source** to "Deploy from a branch" (Classic Pages experience) and **Branch** to **main** with **/docs** folder. Click Save. 
+1. Save your headshot as `images/profile.jpg`  
+2. Open `index.qmd` and find the comment `<!-- Replace the emoji below...`  
+3. Replace the `<div class="profile-placeholder">` block with:
 
-- [ ] 2. Click the little gear button near "About" on the top right side of the home page of the repo and check the "Use your Github Pages website" box under "Website". Click "Save changes". Test the link and you should see a web site with a stick figure on it. It may take a few minutes to build so if it's not working do a few more steps and then come back to check.
+```html
+<img src="images/profile.jpg" class="profile-photo" alt="Santiago Perea">
+```
 
-### Copy the repo link (GitHub)
+### Render the site
 
-- [ ] 1. Click the green Code button, choose "HTTPS" and copy the link below. It should have the format: `https://github.com/[USERNAME]/[REPO NAME].git`
+```bash
+quarto render
+```
 
-### Clone the repo (RStudio)
+Output goes to `docs/`. This is what GitHub Pages will serve.
 
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio. You will need to paste the link from the previous step in the Repository URL box. If it's not automatically populated, enter the repo name in the "Project directory name:" box. Choose the location of the project
+## Deploying to GitHub Pages
 
-### Edit `_quarto.yml` (RStudio)
+### Option A — Automatic (GitHub Actions) ⭐ Recommended
 
-Tip: From the file pane in RStudio, open `README.md`, which contains these instructions. You can delete steps as you complete them.
+1. Push this folder to a new GitHub repository
+2. Go to **Settings → Pages**
+3. Set **Source** to **GitHub Actions**
+4. Every `git push` to `main` will automatically render and deploy your site
 
-- [ ] 1. Edit the all caps info in  `_quarto.yml` to your info. It's very important to maintain the indenting structure in this file precisely as is -- be careful!
+Your site will be live at: `https://[your-username].github.io/[repo-name]/`
 
-### Render the web site (RStudio)
+### Option B — Manual (render locally, push docs/)
 
-- [ ] 1. If you haven't already, click "Help" "Check for Updates" to make sure you have the latest version of RStudio (and thus have Quarto installed.)
+1. Run `quarto render` locally
+2. Commit and push the `docs/` folder to GitHub
+3. Go to **Settings → Pages → Source: Deploy from branch → main / docs/**
 
-- [ ] 2. Render the web site locally by clicking the "Build" tap on the right and then "Render Website".
+## Customization Tips
 
-- [ ] 3. Use `browseURL("docs/index.html")` to view your site locally (or just open `docs/index.html` in a browser).
+### Change colors
+Edit the `:root` block at the top of `styles.css`:
+```css
+:root {
+  --forest-dark:  #1b4332;   /* Navbar, headings */
+  --forest-mid:   #2d6a4f;   /* Links, accents */
+  --forest-pale:  #74c69d;   /* Tags, borders */
+}
+```
 
-- [ ] 4. If it looks good, commit and push all changed files to GitHub. 
+### Add pages
+1. Create a new `.qmd` file (e.g., `cv.qmd`)
+2. Add it to the `navbar:` section in `_quarto.yml`
 
-(You will need to repeat steps 2 and 4 every time you wish to update the book online.)
+### Update publications
+Edit `publications.qmd` — each publication follows the pattern:
+```html
+<div class="pub-item">
+  <div class="pub-authors">Author, A., & Author, B.</div>
+  <div class="pub-title">Title of the paper.</div>
+  <div class="pub-journal">
+    <em>Journal Name</em>, vol(issue), pages.
+    <a href="https://doi.org/..." target="_blank">DOI</a>
+  </div>
+</div>
+```
 
-### Next steps
+### Link a custom domain
+If you have a domain (e.g., `santiagoperea.com`):
+1. Go to **Settings → Pages → Custom domain**
+2. Add a file named `CNAME` to this folder containing just your domain name
 
-- Add content to `index.qmd` as desired.
+## Need help?
 
-- Add content to `projects.qmd` as desired.
-
-- Change the photo in the `img` folder to your photo.
-
-- Choose a theme from [https://bootswatch.com/](https://bootswatch.com/) and replace "cerulean" in `_quarto.yml` with your prefered theme.
-
-- Add additional tabs/sections by creating new `.qmd` files and listing them in `_quarto.yml` under `projects.qmd`.
-
-### Additional features
-
-Please consult the official guide to **quarto** web sites: [https://quarto.org/docs/websites/](https://quarto.org/docs/websites/)
-
-### Last but not least
-
-Once you've completed these steps, delete the content of this **README** and add a short description of your project with a link to the book URL. It would be appreciated if you add the following to the end:	
-
-*This repo was initially generated from a Quarto template available here: https://github.com/jtr13/website-template.*
-
-(If you found this helpful, please let us know by starring the repo. ⭐ 😄)
-
+- [Quarto documentation](https://quarto.org/docs/websites/)
+- [GitHub Pages docs](https://docs.github.com/en/pages)

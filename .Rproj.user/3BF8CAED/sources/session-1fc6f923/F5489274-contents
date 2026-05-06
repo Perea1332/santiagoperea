@@ -1,0 +1,159 @@
+---
+title: ""
+format:
+  html:
+    page-layout: article
+---
+
+```{=html}
+<div style="margin-bottom:40px; display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+  <div>
+    <h1 class="section-heading">All Publications</h1>
+    <p class="section-intro" style="margin-top:12px;">
+      🔗 <a href="https://scholar.google.com/citations?user=Rns6VGQAAAAJ" target="_blank">Google Scholar</a>
+      &nbsp;·&nbsp;
+      <a href="https://orcid.org/0000-0002-2166-2375" target="_blank">ORCID: 0000-0002-2166-2375</a>
+      <br><sup>†</sup> Mentee first author
+    </p>
+  </div>
+  <a href="publications.html" class="social-btn" style="white-space:nowrap;">← Back</a>
+</div>
+
+<!-- ═══════ ACCEPTED ═══════ -->
+<div class="pub-year-header">Accepted</div>
+
+<div class="pub-item highlight">
+  <div class="pub-authors">Burivalova, Z., <strong>Perea, S.</strong>, et al.</div>
+  <div class="pub-title">Bioacoustic biodiversity baselines for intact forests. <span class="pub-badge badge-accepted">Accepted · Global Change Biology</span></div>
+</div>
+
+<!-- ═══════ 2026 ═══════ -->
+<div class="pub-year-header">2026</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, de Oliveira, H. F. M., Silva, D. C., de la Sancha, N. U., da Silva, J. M., Domingos, F. M. C. B., &amp; Fandos, G.</div>
+  <div class="pub-title">Multidimensional diversity assessment of cave-associated bats in Brazil reveals major conservation gaps.</div>
+  <div class="pub-journal"><em>Biodiversity and Conservation</em>, 35(5), 141. <a href="https://doi.org/10.1007/s10531-026-03335-7" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Berman, L. M., <strong>Perea, S.</strong>, Sagar, H. S. C., Persche, M., Ingram, G., Maeda, T., ... &amp; Buřivalová, Z.</div>
+  <div class="pub-title">Acoustic Indices Reveal Fundamental Differences in Daily Phenology of Tropical and Temperate Forest Soundscapes.</div>
+  <div class="pub-journal"><em>Global Ecology and Biogeography</em>, 35(3), e70224. <a href="https://doi.org/10.1111/geb.70224" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Izquierdo, M., Sierra-Duran, C., <strong>Perea, S.</strong>, Meineke, C. D., &amp; Medellín, R.</div>
+  <div class="pub-title">Pests for dinner: Dietary composition of insectivorous bats in a fragmented Tropical Dry Forest.</div>
+  <div class="pub-journal"><em>Biotropica</em>. <a href="https://doi.org/10.1111/btp.70177" target="_blank">DOI</a></div>
+</div>
+
+<!-- ═══════ 2025 ═══════ -->
+<div class="pub-year-header">2025</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><sup>†</sup> Roberson, B. J., <strong>Perea, S.</strong>, DeRose‐Broeckert, D., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Glowing Green: A Quantitative Analysis of Photoluminescence in Six North American Bat Species.</div>
+  <div class="pub-journal"><em>Ecology and Evolution</em>, 15(8), e71885. <a href="https://doi.org/10.1002/ece3.71885" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong></div>
+  <div class="pub-title">Listening to forest recovery: Biodiversity conservation.</div>
+  <div class="pub-journal"><em>Nature Reviews Biodiversity</em>, 1–1. <a href="https://doi.org/10.1038/s44358-025-00073-6" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Vicente-Santos, A., Larsen-Gray, A. L., Gandhi, K. J., Greene, D. U., Barnes, B. F., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Disentangling winter relationships: Bat responses to forest stand structure, environmental conditions, and prey composition.</div>
+  <div class="pub-journal"><em>Forest Ecology and Management</em>, 578, 122484. <a href="https://doi.org/10.1016/j.foreco.2024.122484" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Meierhofer, M. B., (…), <strong>Perea, S.</strong>, (…), &amp; Weller, T. J.</div>
+  <div class="pub-title">Re‐weighing the 5% tagging recommendation: assessing the potential impacts of tags on the behaviour and body condition of bats.</div>
+  <div class="pub-journal"><em>Mammal Review</em>, 55(2), e12369. <a href="https://doi.org/10.1111/mam.12369" target="_blank">DOI</a></div>
+</div>
+
+<!-- ═══════ 2024 ═══════ -->
+<div class="pub-year-header">2024</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Ferrall, E. A., <strong>Perea, S.</strong>, Morris, K. M., Pattavina, P. E., Irwin, B. J., Hepinstall‐Cymerman, J., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Disparities in <em>Perimyotis subflavus</em> Body Mass Between Cave and Culvert Hibernacula in Georgia, USA.</div>
+  <div class="pub-journal"><em>Ecology and Evolution</em>, 14(12), e70634. <a href="https://doi.org/10.1002/ece3.70634" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Ferrall, E. A., Morris, K. M., Pattavina, P. E., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">One ring does not fit all: Evaluation of banding‐related injuries in tricolored bats.</div>
+  <div class="pub-journal"><em>Conservation Science and Practice</em>, 6(12), e13269. <a href="https://doi.org/10.1111/csp2.13269" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, E. A. Ferrall, K. M. Morris, P. E. Pattavina, N. Sharp, M. A. L. L., Pattavina, N. L. Castleberry, &amp; S. B. Castleberry.</div>
+  <div class="pub-title">Bioblitz as a tool for uncovering changes in forest bat communities in the southeastern U.S.</div>
+  <div class="pub-journal"><em>Journal of Bat Research and Conservation</em>, 17(1): 21–28. <a href="https://doi.org/10.14709/BarbJ.17.1.2024.02" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Myers, J. B., <strong>Perea, S.</strong>, Johannsen, K. L., Rushton, E., Conner, L. M., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Evaluating effects of natural and anthropogenic factors on American black bear occupancy in northern Georgia, USA.</div>
+  <div class="pub-journal"><em>Journal of Zoology</em>, 324(4), 287–297. <a href="https://doi.org/10.1111/jzo.13215" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Meinecke, C. D., Larsen-Gray, A. L., Greene, D. U., Villari, C., Gandhi, K. J., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Winter diet of bats in working forests of the southeastern US Coastal Plain.</div>
+  <div class="pub-journal"><em>Scientific Reports</em>, 14(1), 12778. <a href="https://doi.org/10.1038/s41598-024-63062-3" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Fandos, G., Larsen‐Gray, A., Greene, D. U., Chandler, R., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Bat winter foraging habitat use in working forests: a multispecies spatial occupancy approach.</div>
+  <div class="pub-journal"><em>Animal Conservation</em>, 27(4), 478–491. <a href="https://doi.org/10.1111/acv.12924" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Ferrall, E. A., Morris, K. M., Pattavina, P. E., Sharp, N., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">A decade of hibernating bat communities along the periphery of a region of white‐nose syndrome.</div>
+  <div class="pub-journal"><em>The Journal of Wildlife Management</em>, 88(1), e22506. <a href="https://doi.org/10.1002/jwmg.22506" target="_blank">DOI</a></div>
+</div>
+
+<!-- ═══════ 2022 ═══════ -->
+<div class="pub-year-header">2022</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Morris, K. M., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Northern yellow bat <em>Dasypterus intermedius</em> activity and habitat selection on an Atlantic barrier island.</div>
+  <div class="pub-journal"><em>Acta Chiropterologica</em>, 24(2), 343–352. <a href="https://doi.org/10.3161/15081109ACC2022.24.2.005" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Yearout, J. A., Ferrall, E. A., Morris, K. M., Pynne, J. T., &amp; Castleberry, S. B.</div>
+  <div class="pub-title">Seven-year impact of white-nose syndrome on tri-colored bat (<em>Perimyotis subflavus</em>) populations in Georgia, USA.</div>
+  <div class="pub-journal"><em>Endangered Species Research</em>, 48, 99–106. <a href="https://doi.org/10.3354/esr01189" target="_blank">DOI</a></div>
+</div>
+
+<!-- ═══════ 2021 ═══════ -->
+<div class="pub-year-header">2021</div>
+
+<div class="pub-item">
+  <div class="pub-authors">Bender, M. J., <strong>Perea, S.</strong>, Castleberry, S. B., Miller, D. A., &amp; Wigley, T. B.</div>
+  <div class="pub-title">Influence of insect abundance and vegetation structure on site-occupancy of bats in managed pine forests.</div>
+  <div class="pub-journal"><em>Forest Ecology and Management</em>, 482, 118839. <a href="https://doi.org/10.1016/j.foreco.2020.118839" target="_blank">DOI</a></div>
+</div>
+
+<!-- ═══════ 2020 ═══════ -->
+<div class="pub-year-header">2020</div>
+
+<div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, &amp; Tena, E.</div>
+  <div class="pub-title">Different bat detectors and processing software… Same results?</div>
+  <div class="pub-journal"><em>Journal of Bat Research and Conservation</em>, 13(1). <a href="https://doi.org/10.14709/BarbJ.13.1.2020.01" target="_blank">DOI</a></div>
+</div>
+
+<div style="text-align:center; margin-top:40px; padding-top:24px; border-top:1px solid var(--border);">
+  <a href="publications.html" class="social-btn" style="font-size:0.95rem; padding:10px 28px;">← Back to recent publications</a>
+</div>
+```

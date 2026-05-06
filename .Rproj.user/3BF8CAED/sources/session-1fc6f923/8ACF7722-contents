@@ -1,0 +1,229 @@
+---
+title: ""
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<!-- HERO BANNER -->
+<div class="hero-banner">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1 class="hero-name">Santiago Perea</h1>
+    <p class="hero-subtitle">Conservation Biology · Ecological Modeling · Soundscape Ecology</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="page-section">
+  <div class="page-wrap">
+    <div class="profile-section">
+      <div class="profile-left">
+        <img src="images/profile.jpg" class="profile-photo" alt="Santiago Perea">
+        <p style="font-family:'Inter',sans-serif; font-weight:700; font-size:1.1rem; color:var(--forest-dark); margin:12px 0 4px;">Santiago Perea</p>
+        <p style="font-family:'Inter',sans-serif; font-size:0.85rem; color:var(--text-mid); margin:0 0 14px;">Postdoctoral Research Associate<br>University of Wisconsin–Madison</p>
+        <div class="icon-links">
+          <a href="mailto:pereaarroyo@wisc.edu" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://twitter.com/perea1332" target="_blank" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://scholar.google.com/citations?user=Rns6VGQAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+          <a href="https://github.com/Perea1332" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="profile-right">
+        <h2 class="section-heading">About Me</h2>
+        <p class="hero-bio" style="margin-top:16px;">I grew up surrounded by nature and fascinated by wildlife — the wide variety of shapes, colors, and sounds, and the fact that so many species manage to coexist and occupy different niches in the same ecosystem. At some point, that fascination began to mix with concern. Habitats are changing faster than most people realize, and so is the wildlife within them.</p>
+        <p class="hero-bio">That tension is what led me to conservation biology and to a core conviction: protecting biodiversity is not just a matter of caring deeply. It's about generating the right evidence, at the right scale, in time for people to act on it — and working with land managers, local communities, and policymakers to make sure it is understood, trusted, and actually used.</p>
+        <p class="hero-bio">I see myself as a mix of a conservation biologist and a data enthusiast. My research combines <strong>bioacoustics</strong> and <strong>camera trapping</strong> with AI-driven species detection, soundscape analysis, ecological modeling, and remote sensing to study how wildlife communities respond to forest management and human disturbances across multiple spatial and temporal scales.</p>
+      </div>
+    </div>
+
+    <div class="two-col-section">
+      <div>
+        <h2 class="section-heading">Research Interests</h2>
+        <div class="interests-grid" style="margin-top:16px;">
+          <span class="interest-tag">Bioacoustics</span>
+          <span class="interest-tag">Biodiversity Monitoring</span>
+          <span class="interest-tag">Conservation Biology</span>
+          <span class="interest-tag">Ecological Modeling</span>
+          <span class="interest-tag">Forest Management</span>
+          <span class="interest-tag">Soundscape Ecology</span>
+        </div>
+      </div>
+      <div>
+        <h2 class="section-heading">Education</h2>
+        <div style="margin-top:16px;">
+          <div class="edu-item">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <div class="edu-degree">Ph.D. in Forestry and Natural Resources (2024)</div>
+              <div class="edu-details">University of Georgia, USA<br><em>Modeling winter foraging ecology of bats on working forest lands in the southeastern U.S. Coastal Plain</em></div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <div class="edu-degree">M.Sc. in Conservation Biology (2018)</div>
+              <div class="edu-details">Complutense University of Madrid, Spain</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <div class="edu-degree">B.Sc. in Biology (2017)</div>
+              <div class="edu-details">Complutense University of Madrid, Spain</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="page-section section-alt">
+  <div class="page-wrap">
+    <h2 class="section-heading">Research</h2>
+    <p class="section-intro" style="margin-top:16px;">My research focuses on one central challenge: how do we monitor biodiversity at the scale and speed that forest management decisions actually require? My projects span tropical and temperate systems, from tropical forests in the Amazon and the Congo Basin to working pine forests in the U.S. Southeast, but they share a common goal: generating biodiversity data that is rigorous, scalable, and actionable.</p>
+
+    <div class="research-grid">
+      <div class="research-card">
+        <span class="location-badge">📍Amazonian Rainforest, Peru</span>
+        <h3>Impacts of Liana Cutting on Tropical Forest Biodiversity</h3>
+        <p>Liana cutting is increasingly proposed as a tool for enhancing carbon sequestration in selectively logged tropical forests, but what does it mean for the wildlife that live there? In collaboration with Conservation International and Peruvian researchers, we are assessing how wildlife responds to this practice. This project integrates AI-based species detection and soundscape analysis to evaluate the ecological trade-offs of liana cutting and its potential role in sustainable forest management.</p>
+        <p>🔗 <a href="https://www.conservation.org/projects/lift" target="_blank">Learn more</a></p>
+      </div>
+
+      <div class="research-card">
+        <span class="location-badge">📍Intact Forests, Global</span>
+        <h3>Soundscape Baseline Project: Biodiversity Baselines for Evidence-Based Conservation</h3>
+        <p>How do we know what a healthy forest sounds like? And how do we detect when it starts to change? Together with a network of local scientists, conservationists, and community partners, in <a href="https://soundforestlab.org" target="_blank">The Sound Forest Lab</a> we are establishing biodiversity baselines in some of the world's most intact forests.</p>
+        <p>🔗 <a href="https://soundforestlab.org/soundscapebaselines" target="_blank">Learn more</a></p>
+      </div>
+
+      <div class="research-card">
+        <span class="location-badge">📍Atlantic Forest, Paraguay</span>
+        <h3>Soundscapes of the Tapytá Natural Reserve</h3>
+        <p>What can sound tell us about biodiversity in one of the most fragmented forests in South America? The Tapytá Reserve, located in Paraguay's Caazapá department, is a biodiversity-rich protected area within the highly fragmented Atlantic Forest of Paraguay. Led by the Moisés Bertoni Foundation in collaboration with the Facultad Politécnica of Universidad Nacional de Asunción, this project uses Passive Acoustic Monitoring and AI to map biodiversity across the reserve.</p>
+        <p>🔗 <a href="https://www.pol.una.py/2024/paisajes-sonoros-un-desafio-de-inteligencia-artificial-para-la-conservacion-en-paraguay/" target="_blank">Learn more</a></p>
+      </div>
+
+      <div class="research-card">
+        <span class="location-badge">📍Southeastern Coastal Plain, USA · PhD Research</span>
+        <h3>Modeling Winter Foraging Ecology of Bats in Working Forests</h3>
+        <p>Forests are widespread across the eastern U.S., with about 86% of them in the southeastern region privately owned. Forest management plays a key role in conserving these landscapes and preventing their conversion to other land uses. Many bats are year-round residents in this region and remain active during winter or migrate from colder areas to seek milder conditions. However, the winter foraging ecology by bats and how forest management influences their habitat use remain understudied. My research evaluated multiple dimensions of winter bat ecology across forests of the southeastern U.S. Coastal Plain.</p>
+        <p>🔗 <a href="https://www.proquest.com/docview/3152467173?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses" target="_blank">Read dissertation</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" class="page-section">
+  <div class="page-wrap">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:8px;">
+      <h2 class="section-heading">Publications</h2>
+      <a href="all-publications.html" class="social-btn">See all publications →</a>
+    </div>
+    <p class="section-intro">
+      <a href="https://scholar.google.com/citations?user=Rns6VGQAAAAJ" target="_blank">Google Scholar</a>
+      &nbsp;·&nbsp; <a href="https://orcid.org/0000-0002-2166-2375" target="_blank">ORCID: 0000-0002-2166-2375</a>
+    </p>
+
+    <div class="pub-year-header">Accepted</div>
+    <div class="pub-item highlight">
+      <div class="pub-authors">Burivalova, Z., <strong>Perea, S.</strong>, et al.</div>
+      <div class="pub-title">Bioacoustic biodiversity baselines for intact forests. <span class="pub-badge badge-accepted">Accepted · Global Change Biology</span></div>
+    </div>
+
+    <div class="pub-year-header">Recent</div>
+    <div class="pub-item">
+      <div class="pub-authors"><strong>Perea, S.</strong>, de Oliveira, H. F. M., Silva, D. C., de la Sancha, N. U., da Silva, J. M., Domingos, F. M. C. B., &amp; Fandos, G.</div>
+      <div class="pub-title">Multidimensional diversity assessment of cave-associated bats in Brazil reveals major conservation gaps.</div>
+      <div class="pub-journal"><em>Biodiversity and Conservation</em>, 35(5), 141 (2026). <a href="https://doi.org/10.1007/s10531-026-03335-7" target="_blank">DOI</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-authors">Berman, L. M., <strong>Perea, S.</strong>, Sagar, H. S. C., Persche, M., Ingram, G., Maeda, T., ... &amp; Buřivalová, Z.</div>
+      <div class="pub-title">Acoustic Indices Reveal Fundamental Differences in Daily Phenology of Tropical and Temperate Forest Soundscapes.</div>
+      <div class="pub-journal"><em>Global Ecology and Biogeography</em>, 35(3), e70224 (2026). <a href="https://doi.org/10.1111/geb.70224" target="_blank">DOI</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-authors">Izquierdo, M., Sierra-Duran, C., <strong>Perea, S.</strong>, Meineke, C. D., &amp; Medellín, R.</div>
+      <div class="pub-title">Pests for dinner: Dietary composition of insectivorous bats in a fragmented Tropical Dry Forest.</div>
+      <div class="pub-journal"><em>Biotropica</em> (2026). <a href="https://doi.org/10.1111/btp.70177" target="_blank">DOI</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-authors"><strong>Perea, S.</strong>, Vicente-Santos, A., Larsen-Gray, A. L., Gandhi, K. J., Greene, D. U., Barnes, B. F., &amp; Castleberry, S. B.</div>
+      <div class="pub-title">Disentangling winter relationships: Bat responses to forest stand structure, environmental conditions, and prey composition.</div>
+      <div class="pub-journal"><em>Forest Ecology and Management</em>, 578, 122484 (2025). <a href="https://doi.org/10.1016/j.foreco.2024.122484" target="_blank">DOI</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-authors">Roberson, B. J., <strong>Perea, S.</strong>, DeRose‐Broeckert, D., &amp; Castleberry, S. B.</div>
+      <div class="pub-title">Glowing Green: A Quantitative Analysis of Photoluminescence in Six North American Bat Species.</div>
+      <div class="pub-journal"><em>Ecology and Evolution</em>, 15(8), e71885 (2025). <a href="https://doi.org/10.1002/ece3.71885" target="_blank">DOI</a></div>
+    </div>
+
+    <div style="text-align:center; margin-top:36px;">
+      <a href="all-publications.html" class="social-btn" style="font-size:0.95rem; padding:10px 28px;">See all 20 publications →</a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<h2 class="section-heading">News</h2>
+
+    <div class="news-card" style="margin-top:24px;">
+      <div class="news-source">Bats Without Borders Webinar · March 25, 2026</div>
+      <div class="news-title">Invited Webinar: Bats Without Borders</div>
+      <div class="news-desc" style="margin-bottom:12px;">
+        Invited speaker for the <a href="https://www.batswithoutborders.org/webinars.html" target="_blank">Bats Without Borders webinar series</a>.
+      </div>
+      <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px;">
+        <iframe
+          src="https://www.youtube.com/embed/5Wm5w3gpHik?start=2308"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <div class="research-card" style="border-left-color:var(--forest-pale); margin-top:24px;">
+      <span class="location-badge"> International Press Coverage · October–November 2025</span>
+      <h3>Undergraduate Mentee Research Goes Global: Bats Glow Green Under UV Light</h3>
+      <p>Research I mentored with undergraduate student <strong>Briana J. Roberson</strong> on photoluminescence in North American bat species attracted international press coverage, documenting UV fluorescence in six bat species.</p>
+      <p>📄 <a href="https://doi.org/10.1002/ece3.71885" target="_blank">Roberson, Perea et al. (2025). Glowing Green. <em>Ecology and Evolution</em>, 15(8), e71885.</a></p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:10px; margin-top:14px;">
+        <a href="https://news.uga.edu/bats-glow-under-uv-light/" target="_blank" class="news-card" style="display:block;text-decoration:none;"><div class="news-source">UGA Research News</div><div class="news-title">Bats Glow Under UV Light</div></a>
+        <a href="https://www.smithsonianmag.com/smart-news/these-bats-glow-green-under-uv-light-joining-a-growing-list-of-photoluminescent-mammals-180987602/" target="_blank" class="news-card" style="display:block;text-decoration:none;"><div class="news-source">Smithsonian Magazine</div><div class="news-title">These Bats Glow Green Under UV Light</div></a>
+        <a href="https://www.nytimes.com/2025/10/30/science/bats-glowing-photoluminescent.html" target="_blank" class="news-card" style="display:block;text-decoration:none;"><div class="news-source">The New York Times</div><div class="news-title">Bat photoluminescence research</div></a>
+        <a href="https://www.bbc.co.uk/newsround/articles/c9q14d4ygzeo" target="_blank" class="news-card" style="display:block;text-decoration:none;"><div class="news-source">BBC Newsround</div><div class="news-title">Bats glow green under UV</div></a>
+      </div>
+    </div>
+
+    <div class="news-card" style="margin-top:16px;">
+      <div class="news-source">UGA Research News · 2025</div>
+      <div class="news-title">UGA Research Evaluates Bat Activity in Winter</div>
+      <div class="news-desc">Coverage of our research on bat winter ecology in working forests of the southeastern U.S. <a href="https://news.uga.edu/uga-research-evaluates-bat-activity-in-winter/" target="_blank">news.uga.edu →</a></div>
+    </div>
+
+    <div class="news-card" style="margin-top:16px;">
+      <div class="news-source">Merlin Tuttle Bat Conservation</div>
+      <div class="news-title">Dining in the Chilly Season — Bats Helping Farmers and Foresters Even in Winter</div>
+      <div class="news-desc"><a href="https://www.merlintuttle.org/dining-in-the-chilly-season-bats-helping-farmers-and-foresters-even-in-winter/" target="_blank">merlintuttle.org →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="page-section">
+  <div class="page-wrap">
+    <h2 class="section-heading">Contact</h2>
+    <p class="section-intro" style="margin-top:12px;">I am always happy to hear from potential collaborators, students, and practitioners working on biodiversity monitoring and conservation.</p>
+    <div style="margin-top:20px; padding-bottom:40px;">
+      <p><i class="fas fa-envelope" style="color:var(--forest-pale); margin-right:10px;"></i><a href="mailto:pereaarroyo@wisc.edu">pereaarroyo@wisc.edu</a> &nbsp;·&nbsp; <a href="mailto:santiago@pereaarroyo.com">santiago@pereaarroyo.com</a></p>
+      <p><i class="fas fa-location-dot" style="color:var(--forest-pale); margin-right:10px;"></i>The Nelson Institute for Environmental Studies · Department of Forest &amp; Wildlife Ecology · University of Wisconsin–Madison</p>
+    </div>
+  </div>
+</section>
+```
